@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entity;
+package classes;
+
+import entity.Book;
 
 /**
  *
  * @author user
  */
-class returnDate {
+public class BookProvider {
     
+
+    public Book createBook(){
+        return null;
+       
 }
+}           

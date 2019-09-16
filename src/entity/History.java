@@ -16,9 +16,18 @@ public class History {
     private Reader reader;
     private Date takeOn;
   private Date returnDate;
+  
+  
    public History(){
        
    }
+
+    public History(Book book, Reader reader, Date takeOn, Date returnDate) {
+        this.book = book;
+        this.reader = reader;
+        this.takeOn = takeOn;
+        this.returnDate = returnDate;
+    }
 
     public Book getBook() {
         return book;

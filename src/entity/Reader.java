@@ -18,6 +18,11 @@ public Reader(){
     
 }   
 
+    public Reader(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
 
     public void setName(String name) {
         this.name = name;
